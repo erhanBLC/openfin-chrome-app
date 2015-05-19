@@ -1,0 +1,20 @@
+{
+  "name": "OpenFin Chrome App",
+  "description": "OpenFin Chrome App",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  },
+  "icons": { "16": "openfin.ico", "128": "openfin.ico" },
+  "permissions": ["storage", "alarms", "notifications", "webview", "system.network"],
+  "sockets": {
+    "tcpServer": {
+      "listen": ""
+    }
+  }
+
+}
