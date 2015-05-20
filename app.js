@@ -35,7 +35,7 @@
 		windowIdSeq += 1;
 
 		// request/register an auth token from OpenFin Runtime for the new window
-		fin.desktop.System.registerExternalConnection({id: windowId}, function(evt) {
+		fin.desktop.System.registerExternalConnection({uuid: windowId}, function(evt) {
 			// token returned as evt.token.  Pass the token and port number to the new window as query parameters
 			chrome.app.window.create('window2.html?openfintoken='+evt.token+'&openfinport='+openfinPort, {
 				'id': windowId,
