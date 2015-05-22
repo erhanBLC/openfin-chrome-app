@@ -19,15 +19,15 @@ This is an example of integration between Chrome app and OpenFin Runtime.
 
 ## Source
 
-background.js: backgroupd script for the Chrome app
-manifest.json: mannifest for the Chrome app
-window.html: main window of the Chrome app. Opened by background.js
-app.js: included by window.html
-window2.html: additional windows opened by window.html
-app2.js: included by window2.html
-app.json:  OpenFin application configuration file used by OpenFinRVM
-OpenFinRVM.exe: OpenFin RVM
-run.bat: script to run this example.
+background.js: backgroupd script for the Chrome app  
+manifest.json: mannifest for the Chrome app  
+window.html: main window of the Chrome app. Opened by background.js  
+app.js: included by window.html  
+window2.html: additional windows opened by window.html  
+app2.js: included by window2.html  
+app.json:  OpenFin application configuration file used by OpenFinRVM  
+OpenFinRVM.exe: OpenFin RVM  
+run.bat: script to run this example.  
 
 
 ## Guidelines
