@@ -34,7 +34,7 @@ run.bat: script to run this example.
 
 1. To be loaded in OpenFin Runtime, a Chrome app needs to be defined in extensions section of app config json file.  The section defines an array of name and path pair of multiple extensions.  Please see app.json in this project as an example
 
-2. If a Chrome app needs to connect to OpenFin Runtime with OpenFin Javascript adapter, it need create the first window with id matching the name defined in manifest.json.  If any additional window need to connect to OpenFin Runtime, it needs to be craeted by the first window by requesting an authorization token first.  Please see app.js in this project for example code.
+2. If a Chrome app needs to connect to OpenFin Runtime with OpenFin Javascript adapter, it need create the first window with id matching the name defined in manifest.json.  If any additional window need to connect to OpenFin Runtime, it needs to be created by the first window which needs to request an authorization token first.  Please see app.js in this project for example code.
 
 3. All window APIs in fin.desktop.Window in OpenFin Javascript adapter do NOT work for Chrome windows created with chrome.app.window.create.
 
